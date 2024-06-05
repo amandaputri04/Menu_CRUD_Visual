@@ -1,0 +1,13 @@
+program Projek1;
+
+uses
+  Forms,
+  Menu_CRUD in '..\Miranti Setya Pertiwi\Menu_CRUD.pas' {Form1};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.CreateForm(TForm1, Form1);
+  Application.Run;
+end.
